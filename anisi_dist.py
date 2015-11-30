@@ -575,7 +575,7 @@ def	canvas_greet():
 	VGAPRN.printf( screen_size[0] / 2, 2 * screen_size[1] / nn,
 					"By Ani Tangellapalli")
 	VGAPRN.printf( screen_size[0] / 2, 3 * screen_size[1] / nn,
-					"Game Testers : Travis Aldrich")
+					"")
 	VGAPRN.printf( screen_size[0] / 2, 4 * screen_size[1] / nn,
 					"Press <ENTER> to begin new game");
 	tmp = "Last: " + `STATE.score` + cheatarray[STATE.cheating] + " --- High: " + `STATE.highscore`
@@ -586,7 +586,7 @@ def	canvas_greet():
 	VGAPRN.printf( screen_size[0] / 2, 7 * screen_size[1] / nn,
 					"ESCAPE to exit and <F> to toggle Fullscreen")
 	VGAPRN.printf( screen_size[0] / 2, 8 * screen_size[1] / nn,
-					"For cheats ask Ani")
+					"For cheats ask Ani :)")
 
 	joystick_think()
 
